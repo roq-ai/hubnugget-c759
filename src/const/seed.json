@@ -1,0 +1,2372 @@
+[
+  {
+    "task": [
+      {
+        "id": "eb52367c-d6a8-40e5-aafc-7739d75a5c0b",
+        "title": "Implement new feature",
+        "description": "Develop and deploy a new feature based on client requirements",
+        "status": "Pending",
+        "created_at": "2023-09-05T14:36:35.670Z",
+        "updated_at": "2023-09-05T09:38:54.504Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "96678342-9d50-47e6-9261-c057138872e9",
+        "title": "Review project proposal",
+        "description": "Analyze and provide feedback on a project proposal",
+        "status": "In Progress",
+        "created_at": "2023-09-05T12:05:20.415Z",
+        "updated_at": "2023-09-05T14:17:38.949Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f4d2cfad-ae18-44e0-983a-3f7fb79a577d",
+        "title": "Fix bug in backend code",
+        "description": "Investigate and resolve a bug in the backend code",
+        "status": "Completed",
+        "created_at": "2023-09-05T08:21:01.096Z",
+        "updated_at": "2023-09-05T13:40:10.537Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "292a1adc-5781-4e75-aeca-1db4741daa27",
+        "title": "Create user interface mockups",
+        "description": "Design user interface mockups for a new application",
+        "status": "On Hold",
+        "created_at": "2023-09-05T19:30:42.855Z",
+        "updated_at": "2023-09-05T16:30:10.400Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bbf7c44e-4447-411e-8b94-1f5bf87ac283",
+        "title": "Optimize database performance",
+        "description": "Improve the performance of database queries",
+        "status": "Cancelled",
+        "created_at": "2023-09-05T16:51:09.034Z",
+        "updated_at": "2023-09-06T03:11:47.689Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "job": [
+      {
+        "id": "6a8072b5-5b71-4fd6-88bb-36932f6e85e2",
+        "title": "Software Engineer",
+        "description": "Develop and maintain software applications",
+        "created_at": "2023-09-06T05:17:41.315Z",
+        "updated_at": "2023-09-05T17:54:42.514Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2d78c829-2dfb-436c-b142-f1c0b63b8456",
+        "title": "Marketing Manager",
+        "description": "Create and execute marketing strategies",
+        "created_at": "2023-09-05T23:53:34.554Z",
+        "updated_at": "2023-09-05T21:21:56.609Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8dc3f228-ac62-4547-a483-3fe9f42803fb",
+        "title": "Financial Analyst",
+        "description": "Analyze financial data and provide insights",
+        "created_at": "2023-09-05T10:28:42.475Z",
+        "updated_at": "2023-09-05T12:14:04.242Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0dbd2ce2-65da-4770-86ae-62ae2941e4d7",
+        "title": "Graphic Designer",
+        "description": "Design visually appealing graphics and layouts",
+        "created_at": "2023-09-05T10:12:57.060Z",
+        "updated_at": "2023-09-06T03:29:37.130Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fe3d18dc-5125-4d4d-ae5a-69fd8d8b26b9",
+        "title": "Operations Coordinator",
+        "description": "Coordinate day-to-day operations of the organization",
+        "created_at": "2023-09-05T22:29:50.223Z",
+        "updated_at": "2023-09-05T22:22:39.893Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "payment": [
+      {
+        "id": "3c7e5f35-7121-4ac6-8e9f-cbc5a4e7e6de",
+        "amount": 63783,
+        "status": "Pending",
+        "created_at": "2023-09-05T18:58:24.994Z",
+        "updated_at": "2023-09-05T08:52:41.239Z",
+        "job_id": "8dc3f228-ac62-4547-a483-3fe9f42803fb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d02c9546-6d80-4bdc-98ca-43d98e1a1fc8",
+        "amount": 19005,
+        "status": "Successful",
+        "created_at": "2023-09-05T19:03:18.349Z",
+        "updated_at": "2023-09-05T06:52:53.568Z",
+        "job_id": "8dc3f228-ac62-4547-a483-3fe9f42803fb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0dfb2a13-86be-4e9c-82b8-ef231939f86e",
+        "amount": 21098,
+        "status": "Failed",
+        "created_at": "2023-09-06T01:04:56.650Z",
+        "updated_at": "2023-09-06T03:01:37.363Z",
+        "job_id": "8dc3f228-ac62-4547-a483-3fe9f42803fb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "410e0377-c8de-411e-8886-a2979b77ecdd",
+        "amount": 24180,
+        "status": "Refunded",
+        "created_at": "2023-09-05T16:51:14.007Z",
+        "updated_at": "2023-09-05T15:02:16.283Z",
+        "job_id": "8dc3f228-ac62-4547-a483-3fe9f42803fb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "67c78551-a28e-480b-a6cf-119d8aaf0f51",
+        "amount": 9935,
+        "status": "Cancelled",
+        "created_at": "2023-09-05T09:06:26.217Z",
+        "updated_at": "2023-09-05T15:39:32.165Z",
+        "job_id": "fe3d18dc-5125-4d4d-ae5a-69fd8d8b26b9",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "application": [
+      {
+        "id": "87e9cea7-3965-4a54-a934-e47801dd1c83",
+        "status": "Submitted",
+        "created_at": "2023-09-05T11:47:31.654Z",
+        "updated_at": "2023-09-05T10:21:30.238Z",
+        "job_id": "fe3d18dc-5125-4d4d-ae5a-69fd8d8b26b9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "52a99862-b732-4e43-a3e4-859a20c9125b",
+        "status": "Under Review",
+        "created_at": "2023-09-05T17:54:30.334Z",
+        "updated_at": "2023-09-06T03:49:13.343Z",
+        "job_id": "0dbd2ce2-65da-4770-86ae-62ae2941e4d7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8be4675f-113a-4e17-8f53-9c62daa1ba40",
+        "status": "Shortlisted",
+        "created_at": "2023-09-05T08:03:00.090Z",
+        "updated_at": "2023-09-06T03:52:35.506Z",
+        "job_id": "8dc3f228-ac62-4547-a483-3fe9f42803fb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8b8f93d5-6467-4bb4-b11c-ad5abadbe13a",
+        "status": "Rejected",
+        "created_at": "2023-09-05T15:28:00.342Z",
+        "updated_at": "2023-09-05T12:17:01.475Z",
+        "job_id": "6a8072b5-5b71-4fd6-88bb-36932f6e85e2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "819e0e68-1017-4fe2-bed0-6ca764f1851e",
+        "status": "Accepted",
+        "created_at": "2023-09-05T23:10:04.216Z",
+        "updated_at": "2023-09-06T01:28:22.271Z",
+        "job_id": "6a8072b5-5b71-4fd6-88bb-36932f6e85e2",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "2a853f4b-6767-45c7-84ae-7152b689c8ef",
+        "email": "Stephon_Breitenberg8@hotmail.com",
+        "firstName": "Laurianne",
+        "lastName": "Gutkowski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/79611710",
+        "tenantId": null
+      },
+      {
+        "reference": "d48ae459-c023-44b3-b381-478ad5bff5fc",
+        "email": "Janie_Kovacek@yahoo.com",
+        "firstName": "Mercedes",
+        "lastName": "Ritchie",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/46542746",
+        "tenantId": null
+      },
+      {
+        "reference": "fdb6c38e-50c9-4dce-8510-6ea3eac3f47a",
+        "email": "Suzanne.Vandervort71@gmail.com",
+        "firstName": "Marquis",
+        "lastName": "Kautzer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/180.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9e9b6409-63fc-4776-9cb6-cf14d35567e2",
+        "email": "Aliza_Nader@yahoo.com",
+        "firstName": "Corene",
+        "lastName": "Stroman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/42036511",
+        "tenantId": null
+      },
+      {
+        "reference": "7815755b-2d4a-4019-91f8-6ad13ff9e291",
+        "email": "Cara.Rau93@hotmail.com",
+        "firstName": "Glenda",
+        "lastName": "Larson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/36020097",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "task": [
+      {
+        "id": "6ccc53ff-2ccc-477a-aa3d-45cbe12b7c97",
+        "title": "Complete project report",
+        "description": "Prepare a comprehensive report on the project progress",
+        "status": "Pending",
+        "created_at": "2023-09-05T12:35:23.538Z",
+        "updated_at": "2023-09-05T08:33:52.668Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e625f852-78ed-4d94-92d0-052e5a308bf5",
+        "title": "Review marketing strategy",
+        "description": "Analyze and provide feedback on the current marketing strategy",
+        "status": "In Progress",
+        "created_at": "2023-09-05T22:48:28.471Z",
+        "updated_at": "2023-09-05T06:28:19.222Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0e7c0710-1c82-44b8-afa2-8b3e112056be",
+        "title": "Develop new feature",
+        "description": "Implement a new feature based on the provided specifications",
+        "status": "Completed",
+        "created_at": "2023-09-05T21:49:11.933Z",
+        "updated_at": "2023-09-05T19:50:34.484Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "09749c3c-0ae5-4907-877e-ae0a635f170b",
+        "title": "Conduct market research",
+        "description": "Gather data and insights through market research activities",
+        "status": "On Hold",
+        "created_at": "2023-09-05T15:26:21.849Z",
+        "updated_at": "2023-09-05T21:41:49.591Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e18765c9-eb55-45e6-b037-b6cc29a552a8",
+        "title": "Create presentation",
+        "description": "Design and deliver a presentation on the assigned topic",
+        "status": "Cancelled",
+        "created_at": "2023-09-06T00:43:17.935Z",
+        "updated_at": "2023-09-06T02:38:42.140Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "job": [
+      {
+        "id": "80365282-cebb-4492-a2c5-43d585c341b7",
+        "title": "Software Engineer",
+        "description": "Develop and maintain software applications",
+        "created_at": "2023-09-05T23:31:43.371Z",
+        "updated_at": "2023-09-05T19:20:57.323Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "beec883e-35b0-4ca6-95bd-de7303044d96",
+        "title": "Marketing Manager",
+        "description": "Manage marketing campaigns and initiatives",
+        "created_at": "2023-09-05T19:13:42.900Z",
+        "updated_at": "2023-09-05T22:38:50.916Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "73231d19-7120-4806-b16f-ef211f29b023",
+        "title": "Sales Representative",
+        "description": "Promote and sell products to potential customers",
+        "created_at": "2023-09-06T02:08:51.970Z",
+        "updated_at": "2023-09-06T04:21:38.122Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "37ceca9a-06f2-401c-8564-16604fc2b12f",
+        "title": "Financial Analyst",
+        "description": "Analyze financial data and provide insights",
+        "created_at": "2023-09-06T04:01:04.906Z",
+        "updated_at": "2023-09-06T01:46:47.075Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e5096018-1874-4843-ab60-ec0c5f2df760",
+        "title": "HR Coordinator",
+        "description": "Assist with HR processes and activities",
+        "created_at": "2023-09-06T03:07:46.598Z",
+        "updated_at": "2023-09-05T20:40:43.240Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "payment": [
+      {
+        "id": "b57c84f9-27ac-49d0-9d66-1deb9704c74e",
+        "amount": 32588,
+        "status": "Pending",
+        "created_at": "2023-09-05T08:04:26.911Z",
+        "updated_at": "2023-09-05T12:41:01.913Z",
+        "job_id": "e5096018-1874-4843-ab60-ec0c5f2df760",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d64aba38-e7c1-4466-8657-5a7bc5ebe797",
+        "amount": 76026,
+        "status": "Successful",
+        "created_at": "2023-09-05T22:50:36.088Z",
+        "updated_at": "2023-09-06T05:54:05.547Z",
+        "job_id": "80365282-cebb-4492-a2c5-43d585c341b7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "993dafa5-69c5-4bb2-80e1-e09cedbc9815",
+        "amount": 21219,
+        "status": "Failed",
+        "created_at": "2023-09-06T05:45:32.935Z",
+        "updated_at": "2023-09-05T22:27:31.683Z",
+        "job_id": "80365282-cebb-4492-a2c5-43d585c341b7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "983b6f89-3197-4284-86fd-b2feee4adc32",
+        "amount": 76844,
+        "status": "Refunded",
+        "created_at": "2023-09-05T15:45:34.894Z",
+        "updated_at": "2023-09-05T07:32:05.113Z",
+        "job_id": "80365282-cebb-4492-a2c5-43d585c341b7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5c795dad-cacc-46f3-9c22-e1349811c675",
+        "amount": 9033,
+        "status": "Cancelled",
+        "created_at": "2023-09-05T09:38:11.931Z",
+        "updated_at": "2023-09-05T23:49:49.307Z",
+        "job_id": "37ceca9a-06f2-401c-8564-16604fc2b12f",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "application": [
+      {
+        "id": "49d0a1ab-adc9-4a49-98e1-52aa975d8864",
+        "status": "Submitted",
+        "created_at": "2023-09-05T09:46:43.186Z",
+        "updated_at": "2023-09-05T19:57:04.941Z",
+        "job_id": "80365282-cebb-4492-a2c5-43d585c341b7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f3e9cda8-ac16-4f7f-b36f-f55e703b5765",
+        "status": "Under Review",
+        "created_at": "2023-09-05T08:27:14.766Z",
+        "updated_at": "2023-09-05T15:37:44.966Z",
+        "job_id": "37ceca9a-06f2-401c-8564-16604fc2b12f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d5e6e4cb-329c-4a16-9fb9-e5042d33effe",
+        "status": "Shortlisted",
+        "created_at": "2023-09-05T15:39:37.232Z",
+        "updated_at": "2023-09-05T09:50:42.361Z",
+        "job_id": "37ceca9a-06f2-401c-8564-16604fc2b12f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "db41dfe9-4a4b-43bc-aeff-1a02a8ab52c0",
+        "status": "Rejected",
+        "created_at": "2023-09-05T13:55:46.423Z",
+        "updated_at": "2023-09-05T08:58:15.134Z",
+        "job_id": "80365282-cebb-4492-a2c5-43d585c341b7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b60ef5be-13bc-40be-a7b9-2d800b39b0d7",
+        "status": "Accepted",
+        "created_at": "2023-09-05T17:57:11.432Z",
+        "updated_at": "2023-09-05T19:40:47.653Z",
+        "job_id": "37ceca9a-06f2-401c-8564-16604fc2b12f",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "b17cc91d-15ad-4cd2-b011-589f2f56edec",
+        "email": "Marco.Kautzer58@gmail.com",
+        "firstName": "Gaston",
+        "lastName": "Jacobs",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1053.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2ad4ddcf-6db9-42ec-b9a4-0eb02fe572d5",
+        "email": "Rex_Emmerich@yahoo.com",
+        "firstName": "Eriberto",
+        "lastName": "Gerlach",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1153.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "75c84e5a-b067-4bba-b89c-5be11bd5fc91",
+        "email": "Dejah_Kunde8@yahoo.com",
+        "firstName": "Kallie",
+        "lastName": "Wilkinson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/676.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "81b84c16-2ef7-45a2-9828-5e72e8760185",
+        "email": "Okey76@hotmail.com",
+        "firstName": "Colton",
+        "lastName": "Bernhard",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/25036306",
+        "tenantId": null
+      },
+      {
+        "reference": "bb5dd2b9-6b9d-4eef-870a-c6ccb974539f",
+        "email": "Leopoldo5@gmail.com",
+        "firstName": "Naomie",
+        "lastName": "Fadel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54134804",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "task": [
+      {
+        "id": "5ff6f0e0-f1aa-44bf-b842-e421a685ac09",
+        "title": "Complete Project Proposal",
+        "description": "Create a detailed project proposal outlining objectives and deliverables",
+        "status": "Pending",
+        "created_at": "2023-09-05T10:25:12.920Z",
+        "updated_at": "2023-09-06T03:18:47.117Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "74cb41e3-14b7-41d3-9efc-0aa4358b3d8b",
+        "title": "Review Marketing Strategy",
+        "description": "Analyze current marketing strategy and provide recommendations for improvement",
+        "status": "In Progress",
+        "created_at": "2023-09-05T06:40:29.746Z",
+        "updated_at": "2023-09-06T04:09:03.718Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "54a3675b-d30d-40e5-a3fc-43b97d96d5e9",
+        "title": "Develop Mobile App",
+        "description": "Design and develop a mobile application with user-friendly interface",
+        "status": "Completed",
+        "created_at": "2023-09-05T23:20:35.386Z",
+        "updated_at": "2023-09-05T21:42:38.145Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0d912d1d-ecfe-4588-ac83-ae60e156476e",
+        "title": "Conduct Market Research",
+        "description": "Gather and analyze data to identify market trends and consumer preferences",
+        "status": "On Hold",
+        "created_at": "2023-09-05T16:07:19.276Z",
+        "updated_at": "2023-09-05T06:37:35.840Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c6177e01-56ee-4e07-a37c-d0a07535f39c",
+        "title": "Implement Quality Control Measures",
+        "description": "Establish and enforce quality control measures to ensure product excellence",
+        "status": "Cancelled",
+        "created_at": "2023-09-05T15:38:53.054Z",
+        "updated_at": "2023-09-05T17:25:40.084Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "job": [
+      {
+        "id": "20369c7a-68c9-4060-9f3c-34efece40121",
+        "title": "Software Engineer",
+        "description": "Design and develop software solutions to meet client requirements",
+        "created_at": "2023-09-05T07:17:12.957Z",
+        "updated_at": "2023-09-05T09:22:32.421Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0e792a7e-b0e9-4927-b4b7-eb974decd919",
+        "title": "Marketing Manager",
+        "description": "Develop and execute marketing campaigns to promote products and services",
+        "created_at": "2023-09-05T10:10:34.340Z",
+        "updated_at": "2023-09-06T05:05:43.502Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e64a624b-177a-4aac-9c60-dd6a86110749",
+        "title": "Financial Analyst",
+        "description": "Analyze financial data and provide insights for decision-making",
+        "created_at": "2023-09-05T08:34:35.728Z",
+        "updated_at": "2023-09-05T21:27:02.049Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6cd17951-5744-411c-8c44-2124f7066c3f",
+        "title": "HR Specialist",
+        "description": "Manage HR processes and ensure compliance with employment laws",
+        "created_at": "2023-09-05T12:04:12.141Z",
+        "updated_at": "2023-09-06T05:15:16.867Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "46d8df1f-ab31-47c4-ad32-c8fc094c7335",
+        "title": "Sales Representative",
+        "description": "Identify and pursue sales opportunities to achieve revenue targets",
+        "created_at": "2023-09-06T04:12:22.674Z",
+        "updated_at": "2023-09-05T22:07:44.230Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "payment": [
+      {
+        "id": "eea2f84e-98fa-4539-9cb0-3256d7b2acbd",
+        "amount": 82272,
+        "status": "Pending",
+        "created_at": "2023-09-05T20:49:42.441Z",
+        "updated_at": "2023-09-05T22:42:44.439Z",
+        "job_id": "e64a624b-177a-4aac-9c60-dd6a86110749",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ccefb01b-9be2-49ca-983c-74fc12eecbbb",
+        "amount": 4545,
+        "status": "Paid",
+        "created_at": "2023-09-06T02:52:36.172Z",
+        "updated_at": "2023-09-05T22:47:37.644Z",
+        "job_id": "46d8df1f-ab31-47c4-ad32-c8fc094c7335",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dfabd65b-29f4-4966-b839-360da7bd77d1",
+        "amount": 76256,
+        "status": "Failed",
+        "created_at": "2023-09-05T12:37:51.655Z",
+        "updated_at": "2023-09-05T13:50:48.760Z",
+        "job_id": "e64a624b-177a-4aac-9c60-dd6a86110749",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "afecbea8-e8a4-4a96-9e61-ea8439b3755b",
+        "amount": 5573,
+        "status": "Refunded",
+        "created_at": "2023-09-06T05:56:12.632Z",
+        "updated_at": "2023-09-05T09:40:28.093Z",
+        "job_id": "0e792a7e-b0e9-4927-b4b7-eb974decd919",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f92113f5-eb2d-43f5-942f-7df9180d3502",
+        "amount": 20343,
+        "status": "Cancelled",
+        "created_at": "2023-09-05T16:39:17.055Z",
+        "updated_at": "2023-09-05T09:04:48.953Z",
+        "job_id": "6cd17951-5744-411c-8c44-2124f7066c3f",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "application": [
+      {
+        "id": "d4e0a314-52cf-4525-b67d-a59f687b2a78",
+        "status": "Submitted",
+        "created_at": "2023-09-05T09:11:37.381Z",
+        "updated_at": "2023-09-05T09:41:18.074Z",
+        "job_id": "e64a624b-177a-4aac-9c60-dd6a86110749",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cef00cf8-ca41-4f65-9f61-436e9ec0093c",
+        "status": "Under Review",
+        "created_at": "2023-09-05T10:28:04.137Z",
+        "updated_at": "2023-09-05T23:10:51.671Z",
+        "job_id": "e64a624b-177a-4aac-9c60-dd6a86110749",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1c5ab41d-998d-47ec-9214-e073a9abed54",
+        "status": "Shortlisted",
+        "created_at": "2023-09-06T04:12:02.478Z",
+        "updated_at": "2023-09-05T20:46:03.265Z",
+        "job_id": "0e792a7e-b0e9-4927-b4b7-eb974decd919",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d3f43e6e-6e55-4744-abfe-40add6fc0db0",
+        "status": "Interview Scheduled",
+        "created_at": "2023-09-05T18:29:23.154Z",
+        "updated_at": "2023-09-05T09:55:15.970Z",
+        "job_id": "46d8df1f-ab31-47c4-ad32-c8fc094c7335",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bd9d8bce-f8fe-4aec-8de9-61c59e8f80b6",
+        "status": "Rejected",
+        "created_at": "2023-09-05T14:57:35.005Z",
+        "updated_at": "2023-09-05T14:14:54.592Z",
+        "job_id": "46d8df1f-ab31-47c4-ad32-c8fc094c7335",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "d29e6240-6950-4287-a83f-3fbb4d0b98c7",
+        "email": "Eladio_Sanford61@yahoo.com",
+        "firstName": "Marilyne",
+        "lastName": "Reilly",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12492973",
+        "tenantId": null
+      },
+      {
+        "reference": "1000dd54-3477-43f8-91ca-a820d3bc5ee5",
+        "email": "Dalton.Okuneva35@gmail.com",
+        "firstName": "Ross",
+        "lastName": "Reichel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "09c23bc5-9e4e-4099-b0ef-8f5a93a1a31e",
+        "email": "Cleta22@gmail.com",
+        "firstName": "Leta",
+        "lastName": "Schamberger",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/749.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c999b541-3a9f-4943-a84d-0ae44f4c9b26",
+        "email": "Ronny0@gmail.com",
+        "firstName": "Delmer",
+        "lastName": "Bednar",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/674.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d7dcfb80-63d5-4d7c-bea5-08292fb185f6",
+        "email": "Ulises16@hotmail.com",
+        "firstName": "Ana",
+        "lastName": "Yost",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1172.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "task": [
+      {
+        "id": "4c4d5a81-0db0-489c-98ae-f6a1dfd35bee",
+        "title": "Complete project proposal",
+        "description": "Detailed analysis and recommendations for project proposal",
+        "status": "Pending",
+        "created_at": "2023-09-05T15:11:41.317Z",
+        "updated_at": "2023-09-05T14:30:43.753Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e83deacc-9e4a-43bd-8751-9040d391b6a9",
+        "title": "Review marketing strategy",
+        "description": "Evaluate current marketing strategy and suggest improvements",
+        "status": "In Progress",
+        "created_at": "2023-09-05T13:45:04.419Z",
+        "updated_at": "2023-09-05T16:41:15.466Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "85575341-488c-4aa5-877b-3ebbd1caca4b",
+        "title": "Fix bug in backend code",
+        "description": "Identify and resolve issue causing backend code malfunction",
+        "status": "Completed",
+        "created_at": "2023-09-05T10:18:35.244Z",
+        "updated_at": "2023-09-06T05:40:07.752Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bedfa7e7-b67f-4d81-a2a7-0fb1a5d93e30",
+        "title": "Create user interface mockups",
+        "description": "Design visually appealing and user-friendly mockups for application",
+        "status": "On Hold",
+        "created_at": "2023-09-06T03:47:08.195Z",
+        "updated_at": "2023-09-06T04:37:51.688Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6e5fbb7e-2299-408f-a50e-5747d31a866c",
+        "title": "Test application performance",
+        "description": "Measure and optimize application performance for better user experience",
+        "status": "Cancelled",
+        "created_at": "2023-09-05T15:49:40.059Z",
+        "updated_at": "2023-09-05T16:34:09.308Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "job": [
+      {
+        "id": "b58e9e70-86bc-4fae-872f-d93158cf351b",
+        "title": "Software Engineer",
+        "description": "Develop and maintain software applications",
+        "created_at": "2023-09-05T21:08:13.858Z",
+        "updated_at": "2023-09-06T04:01:50.498Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6ffdfefb-0f08-4e74-86cf-43c22949efd4",
+        "title": "Marketing Manager",
+        "description": "Plan and execute marketing campaigns",
+        "created_at": "2023-09-05T15:38:42.014Z",
+        "updated_at": "2023-09-05T22:35:07.635Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4c740420-5528-4bec-854c-2e52fd1a56eb",
+        "title": "Data Analyst",
+        "description": "Analyze data to derive insights and make recommendations",
+        "created_at": "2023-09-05T17:05:48.114Z",
+        "updated_at": "2023-09-05T21:00:43.366Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "df3e0830-89a2-4619-83dd-10d48f12ca56",
+        "title": "Graphic Designer",
+        "description": "Create visually appealing designs for various mediums",
+        "created_at": "2023-09-05T16:36:11.057Z",
+        "updated_at": "2023-09-05T18:22:55.543Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "35f1ceb0-2124-4450-8fba-44d73f9edae6",
+        "title": "Sales Representative",
+        "description": "Promote and sell company products or services",
+        "created_at": "2023-09-05T16:59:02.384Z",
+        "updated_at": "2023-09-05T09:43:48.521Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "payment": [
+      {
+        "id": "65e1f194-58a7-43b0-8d49-7d2416a8c956",
+        "amount": 28537,
+        "status": "Pending",
+        "created_at": "2023-09-05T13:26:07.457Z",
+        "updated_at": "2023-09-05T12:33:46.810Z",
+        "job_id": "df3e0830-89a2-4619-83dd-10d48f12ca56",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3b9e9c04-d602-4812-aaa4-1876677ce48b",
+        "amount": 42082,
+        "status": "Successful",
+        "created_at": "2023-09-05T17:36:50.735Z",
+        "updated_at": "2023-09-05T08:49:54.869Z",
+        "job_id": "df3e0830-89a2-4619-83dd-10d48f12ca56",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9b953bd2-26f8-488b-b835-7480442de4fe",
+        "amount": 36827,
+        "status": "Failed",
+        "created_at": "2023-09-05T22:47:04.573Z",
+        "updated_at": "2023-09-05T15:06:09.691Z",
+        "job_id": "b58e9e70-86bc-4fae-872f-d93158cf351b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0af2da2c-5962-4693-bc3e-4126bc308a46",
+        "amount": 91932,
+        "status": "Refunded",
+        "created_at": "2023-09-05T08:57:17.841Z",
+        "updated_at": "2023-09-05T15:29:41.243Z",
+        "job_id": "4c740420-5528-4bec-854c-2e52fd1a56eb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "555f1593-daf2-41e6-ab55-ca0f7a11ba8d",
+        "amount": 66204,
+        "status": "Cancelled",
+        "created_at": "2023-09-05T23:58:09.197Z",
+        "updated_at": "2023-09-06T01:12:06.341Z",
+        "job_id": "6ffdfefb-0f08-4e74-86cf-43c22949efd4",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "application": [
+      {
+        "id": "e44ea943-49eb-4a68-89f9-6c7cd4e41db0",
+        "status": "Submitted",
+        "created_at": "2023-09-06T03:08:48.815Z",
+        "updated_at": "2023-09-05T07:16:14.181Z",
+        "job_id": "df3e0830-89a2-4619-83dd-10d48f12ca56",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c25bc95c-0a59-476f-86ce-dd9635313474",
+        "status": "Under Review",
+        "created_at": "2023-09-05T07:15:28.123Z",
+        "updated_at": "2023-09-05T20:10:20.266Z",
+        "job_id": "4c740420-5528-4bec-854c-2e52fd1a56eb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "00d7937a-50d0-4691-9880-c46958e69954",
+        "status": "Shortlisted",
+        "created_at": "2023-09-05T17:41:58.812Z",
+        "updated_at": "2023-09-06T04:47:18.578Z",
+        "job_id": "4c740420-5528-4bec-854c-2e52fd1a56eb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5a9accdf-655a-47fd-b6f3-b3d32893817a",
+        "status": "Rejected",
+        "created_at": "2023-09-05T20:41:11.421Z",
+        "updated_at": "2023-09-05T20:55:01.471Z",
+        "job_id": "4c740420-5528-4bec-854c-2e52fd1a56eb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fc102517-1fb7-4c00-aa16-72aa620c43f2",
+        "status": "Accepted",
+        "created_at": "2023-09-05T11:03:36.354Z",
+        "updated_at": "2023-09-06T03:01:36.962Z",
+        "job_id": "b58e9e70-86bc-4fae-872f-d93158cf351b",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "ac814110-9534-4b1c-b1f8-6e5234250ad5",
+        "email": "Justina81@gmail.com",
+        "firstName": "Murray",
+        "lastName": "Cummerata",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/57339249",
+        "tenantId": null
+      },
+      {
+        "reference": "839ab26b-fe0f-4c9f-b747-616d904d188a",
+        "email": "Yolanda32@gmail.com",
+        "firstName": "Jannie",
+        "lastName": "Wisoky",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/86412",
+        "tenantId": null
+      },
+      {
+        "reference": "7efef0f5-118d-4a81-91e0-b4774a94fd7c",
+        "email": "Leonie_Gottlieb@hotmail.com",
+        "firstName": "Kaylah",
+        "lastName": "Stokes",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/29156419",
+        "tenantId": null
+      },
+      {
+        "reference": "5a2abddb-9db6-45cc-9801-6ea24056e838",
+        "email": "Tyrel12@gmail.com",
+        "firstName": "Cleve",
+        "lastName": "Homenick",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/90179821",
+        "tenantId": null
+      },
+      {
+        "reference": "985ead1a-8603-4e93-8736-a06467dbd34c",
+        "email": "Alfreda52@gmail.com",
+        "firstName": "Hannah",
+        "lastName": "Rau",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/849.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "task": [
+      {
+        "id": "9d43e90e-6395-4b66-8f32-a0c7b37cedfc",
+        "title": "Update website content",
+        "description": "Update the content of the website with the latest information",
+        "status": "Pending",
+        "created_at": "2023-09-05T14:52:43.937Z",
+        "updated_at": "2023-09-06T04:08:03.066Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "13ed726b-7940-4b26-9534-968a79a32256",
+        "title": "Prepare marketing campaign",
+        "description": "Plan and execute a marketing campaign to promote the product",
+        "status": "In Progress",
+        "created_at": "2023-09-05T19:57:51.097Z",
+        "updated_at": "2023-09-05T06:18:16.328Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a228fe71-2ce9-44f7-80bd-2a2e67323d7a",
+        "title": "Fix bug in software",
+        "description": "Identify and fix a bug in the software application",
+        "status": "Completed",
+        "created_at": "2023-09-05T17:00:25.106Z",
+        "updated_at": "2023-09-05T23:05:44.873Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5a56a307-f00e-4b17-9ddd-4bf23d242a50",
+        "title": "Create user interface design",
+        "description": "Design an intuitive user interface for the new feature",
+        "status": "On Hold",
+        "created_at": "2023-09-05T17:40:17.724Z",
+        "updated_at": "2023-09-05T23:02:33.491Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "24c22d10-a6d6-41b4-91c3-fc7114ed45fd",
+        "title": "Write technical documentation",
+        "description": "Write detailed documentation explaining the technical aspects of the system",
+        "status": "Cancelled",
+        "created_at": "2023-09-05T20:12:51.305Z",
+        "updated_at": "2023-09-06T02:42:08.707Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "job": [
+      {
+        "id": "55e636b4-3cc3-42f0-a5d6-c7b7caa70c01",
+        "title": "Software Engineer",
+        "description": "Develop and maintain software applications",
+        "created_at": "2023-09-05T15:28:19.021Z",
+        "updated_at": "2023-09-05T10:04:37.257Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ad7f0d3c-2600-4e9d-88a7-feda1b7f42d8",
+        "title": "Marketing Manager",
+        "description": "Plan and execute marketing strategies",
+        "created_at": "2023-09-06T01:33:53.236Z",
+        "updated_at": "2023-09-06T01:12:34.683Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "767dbb97-e9f4-4878-a1da-be58766a2afe",
+        "title": "Sales Representative",
+        "description": "Promote products and services to potential customers",
+        "created_at": "2023-09-05T13:07:06.906Z",
+        "updated_at": "2023-09-05T19:29:01.701Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9ee28dae-aff0-4a9a-ae66-2bdcaaa8b92b",
+        "title": "Graphic Designer",
+        "description": "Create visually appealing designs for various mediums",
+        "created_at": "2023-09-05T11:20:30.175Z",
+        "updated_at": "2023-09-05T08:24:33.987Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0c0287a5-43d5-4321-8746-725394cd72c1",
+        "title": "Data Analyst",
+        "description": "Analyze and interpret data to derive insights",
+        "created_at": "2023-09-05T23:13:19.693Z",
+        "updated_at": "2023-09-05T17:56:44.332Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "payment": [
+      {
+        "id": "0817246e-6790-4aac-bb96-2eba7fdad9a0",
+        "amount": 69019,
+        "status": "Pending",
+        "created_at": "2023-09-05T14:21:34.125Z",
+        "updated_at": "2023-09-05T14:57:34.897Z",
+        "job_id": "55e636b4-3cc3-42f0-a5d6-c7b7caa70c01",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d92e4261-8852-4600-bc0b-972d15182781",
+        "amount": 79743,
+        "status": "Paid",
+        "created_at": "2023-09-05T23:45:04.536Z",
+        "updated_at": "2023-09-05T12:50:34.036Z",
+        "job_id": "0c0287a5-43d5-4321-8746-725394cd72c1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "18f999b5-46ee-4223-bb36-e022c8747884",
+        "amount": 88018,
+        "status": "Failed",
+        "created_at": "2023-09-05T20:30:15.247Z",
+        "updated_at": "2023-09-05T14:31:15.861Z",
+        "job_id": "767dbb97-e9f4-4878-a1da-be58766a2afe",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d5b90265-5f7e-46c2-a07d-66cbddf5b6a5",
+        "amount": 67737,
+        "status": "Refunded",
+        "created_at": "2023-09-05T11:41:40.519Z",
+        "updated_at": "2023-09-06T02:20:01.331Z",
+        "job_id": "767dbb97-e9f4-4878-a1da-be58766a2afe",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1841e6f5-d108-4e62-acbb-318830f818b6",
+        "amount": 88306,
+        "status": "Cancelled",
+        "created_at": "2023-09-06T01:48:20.753Z",
+        "updated_at": "2023-09-06T00:11:47.578Z",
+        "job_id": "0c0287a5-43d5-4321-8746-725394cd72c1",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "application": [
+      {
+        "id": "87c5b6dd-ee21-49b9-bc90-0fe56df14b00",
+        "status": "Submitted",
+        "created_at": "2023-09-05T14:54:06.240Z",
+        "updated_at": "2023-09-05T15:29:40.522Z",
+        "job_id": "ad7f0d3c-2600-4e9d-88a7-feda1b7f42d8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c28c6632-040f-494c-97bc-cdb2b93dd862",
+        "status": "Under Review",
+        "created_at": "2023-09-05T06:27:29.460Z",
+        "updated_at": "2023-09-05T06:52:01.870Z",
+        "job_id": "767dbb97-e9f4-4878-a1da-be58766a2afe",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "be3048a7-84e7-4bb1-92d9-7638a8d214f4",
+        "status": "Accepted",
+        "created_at": "2023-09-05T14:03:52.954Z",
+        "updated_at": "2023-09-06T05:11:56.977Z",
+        "job_id": "0c0287a5-43d5-4321-8746-725394cd72c1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ec943015-a192-4736-b55c-2feae6edc008",
+        "status": "Rejected",
+        "created_at": "2023-09-06T02:18:01.153Z",
+        "updated_at": "2023-09-06T02:20:09.965Z",
+        "job_id": "0c0287a5-43d5-4321-8746-725394cd72c1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dbebebac-5f06-4b45-835f-d311dd1a5039",
+        "status": "Withdrawn",
+        "created_at": "2023-09-05T08:18:33.585Z",
+        "updated_at": "2023-09-06T05:48:52.371Z",
+        "job_id": "9ee28dae-aff0-4a9a-ae66-2bdcaaa8b92b",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "2a00bcee-1c92-4792-89a9-41a69e989dcc",
+        "email": "Hermina.Quigley@yahoo.com",
+        "firstName": "Etha",
+        "lastName": "Boyle",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/411.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e4dda122-0377-4bf7-b45e-97c34c9fb56e",
+        "email": "Milford81@yahoo.com",
+        "firstName": "Ashton",
+        "lastName": "Howe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19214348",
+        "tenantId": null
+      },
+      {
+        "reference": "7e0073d5-c5ca-4de7-bf78-01c92f3a28b4",
+        "email": "Josiane_Zboncak0@hotmail.com",
+        "firstName": "Anissa",
+        "lastName": "Shanahan",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7470275",
+        "tenantId": null
+      },
+      {
+        "reference": "2f330468-8d70-457c-9564-eaab6a10bb94",
+        "email": "Quentin.Leffler2@yahoo.com",
+        "firstName": "Hadley",
+        "lastName": "Block",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/891.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4b6575f2-c0c4-459d-8294-ae7c4e3296af",
+        "email": "Katherine.Crooks@gmail.com",
+        "firstName": "Eriberto",
+        "lastName": "Koch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/280.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "task": [
+      {
+        "id": "f7a2c98e-0ad3-47a2-9bcd-06ab09d27e7c",
+        "title": "Update website content",
+        "description": "Revise the About Us page with updated information",
+        "status": "Pending",
+        "created_at": "2023-09-05T14:02:46.009Z",
+        "updated_at": "2023-09-05T10:04:14.953Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dd6aa7b4-6de3-4758-9fe3-bdf59f858991",
+        "title": "Prepare monthly financial report",
+        "description": "Gather financial data and create a comprehensive report",
+        "status": "In Progress",
+        "created_at": "2023-09-06T00:38:10.026Z",
+        "updated_at": "2023-09-06T02:00:03.626Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1ccb57a6-75cf-4e73-9086-5bafa1cb0354",
+        "title": "Conduct market research",
+        "description": "Collect data on consumer preferences and analyze market trends",
+        "status": "Completed",
+        "created_at": "2023-09-06T00:16:44.339Z",
+        "updated_at": "2023-09-05T10:58:45.467Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8c8ff36a-74a9-410e-bc53-1ba0062f9edc",
+        "title": "Develop new product prototype",
+        "description": "Design and build a functional prototype for testing",
+        "status": "On Hold",
+        "created_at": "2023-09-05T12:43:18.457Z",
+        "updated_at": "2023-09-05T11:21:12.540Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0afdce30-2946-4659-8df6-20c3096e0406",
+        "title": "Implement marketing campaign",
+        "description": "Plan and execute a multi-channel marketing campaign",
+        "status": "Cancelled",
+        "created_at": "2023-09-06T04:24:32.218Z",
+        "updated_at": "2023-09-05T19:53:50.933Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "job": [
+      {
+        "id": "bcc19795-5eb3-4500-9551-86da0aab7b3b",
+        "title": "Software Engineer",
+        "description": "Develop and maintain software applications",
+        "created_at": "2023-09-05T22:16:38.932Z",
+        "updated_at": "2023-09-05T19:49:18.696Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a9506d7a-109c-4be9-be33-765483fe6f1d",
+        "title": "Marketing Manager",
+        "description": "Create and implement marketing strategies",
+        "created_at": "2023-09-05T18:16:04.136Z",
+        "updated_at": "2023-09-05T19:09:20.316Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fd908522-3624-4141-ba09-e293b2756996",
+        "title": "Sales Representative",
+        "description": "Build relationships with clients and drive sales",
+        "created_at": "2023-09-05T22:36:50.734Z",
+        "updated_at": "2023-09-05T16:11:12.899Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "992cab60-a84e-434a-a7d1-8a3f4b811562",
+        "title": "Graphic Designer",
+        "description": "Design visual elements for various projects",
+        "created_at": "2023-09-05T11:22:13.197Z",
+        "updated_at": "2023-09-05T07:46:20.768Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7edc2c52-d8a0-407e-a8d7-46fe2f5386d3",
+        "title": "Project Manager",
+        "description": "Manage project timelines and resources",
+        "created_at": "2023-09-05T07:48:09.224Z",
+        "updated_at": "2023-09-05T15:44:23.137Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "payment": [
+      {
+        "id": "2bb97dc6-40c7-4a19-a7ba-4ef036653fcf",
+        "amount": 75339,
+        "status": "Pending",
+        "created_at": "2023-09-06T05:44:53.448Z",
+        "updated_at": "2023-09-05T22:52:20.539Z",
+        "job_id": "7edc2c52-d8a0-407e-a8d7-46fe2f5386d3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "79dacc35-a17d-4817-902e-05291ebacbc3",
+        "amount": 80760,
+        "status": "Processing",
+        "created_at": "2023-09-06T00:28:12.826Z",
+        "updated_at": "2023-09-05T16:42:29.061Z",
+        "job_id": "7edc2c52-d8a0-407e-a8d7-46fe2f5386d3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0c1c96f9-defc-4952-b31c-0bc850529bd7",
+        "amount": 2916,
+        "status": "Completed",
+        "created_at": "2023-09-05T20:51:36.029Z",
+        "updated_at": "2023-09-06T01:42:14.467Z",
+        "job_id": "bcc19795-5eb3-4500-9551-86da0aab7b3b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "957641ce-8224-4f4d-b46c-b17d94665ba7",
+        "amount": 3341,
+        "status": "Failed",
+        "created_at": "2023-09-05T22:46:09.453Z",
+        "updated_at": "2023-09-05T08:01:48.910Z",
+        "job_id": "fd908522-3624-4141-ba09-e293b2756996",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "653c4392-fe50-4b80-a33e-9a1b391a4345",
+        "amount": 48194,
+        "status": "Refunded",
+        "created_at": "2023-09-05T16:55:45.872Z",
+        "updated_at": "2023-09-05T09:10:35.935Z",
+        "job_id": "7edc2c52-d8a0-407e-a8d7-46fe2f5386d3",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "application": [
+      {
+        "id": "570f31a7-5dc7-400f-b2b8-b5c4cd7216c8",
+        "status": "Submitted",
+        "created_at": "2023-09-06T04:41:17.039Z",
+        "updated_at": "2023-09-06T03:19:51.623Z",
+        "job_id": "bcc19795-5eb3-4500-9551-86da0aab7b3b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "58f619ec-e4be-413c-b7ad-b63de2686206",
+        "status": "Under Review",
+        "created_at": "2023-09-05T11:17:25.809Z",
+        "updated_at": "2023-09-06T03:00:21.466Z",
+        "job_id": "bcc19795-5eb3-4500-9551-86da0aab7b3b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f0478b2e-5ce5-4008-872a-9c0577648418",
+        "status": "Shortlisted",
+        "created_at": "2023-09-06T02:30:52.053Z",
+        "updated_at": "2023-09-05T12:48:30.165Z",
+        "job_id": "992cab60-a84e-434a-a7d1-8a3f4b811562",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "10977784-1231-4468-811d-ad2ddbd6f4af",
+        "status": "Interview Scheduled",
+        "created_at": "2023-09-05T13:51:47.407Z",
+        "updated_at": "2023-09-05T11:49:58.919Z",
+        "job_id": "fd908522-3624-4141-ba09-e293b2756996",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bd0132fc-eaea-4c87-8e8f-7b51a02999f3",
+        "status": "Rejected",
+        "created_at": "2023-09-06T00:02:12.575Z",
+        "updated_at": "2023-09-05T18:42:38.406Z",
+        "job_id": "bcc19795-5eb3-4500-9551-86da0aab7b3b",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "3d2fd7fa-dc33-4cd6-a381-ac34441b7e2e",
+        "email": "Connor.Hagenes@hotmail.com",
+        "firstName": "Eulah",
+        "lastName": "Sporer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/613.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5d96fda7-f15e-496d-bde6-99525ce213fa",
+        "email": "Lorenz_Koepp@hotmail.com",
+        "firstName": "Jannie",
+        "lastName": "Hansen",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1235.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "81ad2e48-edd7-486b-ac99-9a3059af7b5f",
+        "email": "Darrell99@gmail.com",
+        "firstName": "Fred",
+        "lastName": "Denesik",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/38905821",
+        "tenantId": null
+      },
+      {
+        "reference": "7e3a0ba1-ad61-4225-870b-1f0b81777f42",
+        "email": "Trevor.Ruecker8@gmail.com",
+        "firstName": "Jayce",
+        "lastName": "Roob",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/467.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c2ca565a-f275-4114-a55a-e5f3ef224c02",
+        "email": "Emiliano.Leannon10@gmail.com",
+        "firstName": "Leonor",
+        "lastName": "Kilback",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1150.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "task": [
+      {
+        "id": "e257e727-f24c-41e6-b69c-1bea36d5b543",
+        "title": "Complete project report",
+        "description": "Write a detailed report on the project progress",
+        "status": "In progress",
+        "created_at": "2023-09-05T06:53:36.597Z",
+        "updated_at": "2023-09-06T05:26:57.461Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f668dcfb-060c-4892-85a4-8ceccfe1ed6f",
+        "title": "Prepare presentation slides",
+        "description": "Design visually appealing slides for the presentation",
+        "status": "Pending",
+        "created_at": "2023-09-05T11:00:38.245Z",
+        "updated_at": "2023-09-05T15:00:53.871Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3ad7c052-945f-408b-b46c-1fdb266937ba",
+        "title": "Review code for bugs",
+        "description": "Identify and fix any issues in the codebase",
+        "status": "Completed",
+        "created_at": "2023-09-06T05:14:14.403Z",
+        "updated_at": "2023-09-05T12:20:44.733Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "353154b9-bfca-4558-96ae-ab1c7036428d",
+        "title": "Create user interface mockups",
+        "description": "Create wireframes and UI designs for the new feature",
+        "status": "On hold",
+        "created_at": "2023-09-06T05:36:05.903Z",
+        "updated_at": "2023-09-05T11:23:09.744Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "22293823-866a-46e9-890c-09584d89c007",
+        "title": "Implement new feature",
+        "description": "Develop and integrate the specified functionality",
+        "status": "Cancelled",
+        "created_at": "2023-09-05T07:24:48.612Z",
+        "updated_at": "2023-09-05T20:10:58.693Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "job": [
+      {
+        "id": "800f42d8-ab8e-48bb-b91d-edf589ea9841",
+        "title": "Software Engineer",
+        "description": "Develop and maintain software applications",
+        "created_at": "2023-09-05T11:46:15.167Z",
+        "updated_at": "2023-09-05T10:49:27.025Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "115e45e1-6359-4170-90d6-7fd2e8c41d5f",
+        "title": "Marketing Manager",
+        "description": "Plan and execute marketing campaigns",
+        "created_at": "2023-09-05T14:40:12.727Z",
+        "updated_at": "2023-09-05T17:41:31.085Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3e425bee-4613-4e6e-8fc2-f4c4c4d3dbba",
+        "title": "Sales Representative",
+        "description": "Build and maintain relationships with clients",
+        "created_at": "2023-09-05T09:59:43.767Z",
+        "updated_at": "2023-09-05T17:45:00.007Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fe716175-5d99-46d9-bc93-91d811ad81ef",
+        "title": "Graphic Designer",
+        "description": "Create visually appealing designs for various projects",
+        "created_at": "2023-09-06T04:57:31.396Z",
+        "updated_at": "2023-09-05T21:11:34.324Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1add2023-116c-4042-8a72-83dbce0f95d8",
+        "title": "Data Analyst",
+        "description": "Analyze and interpret data to provide insights",
+        "created_at": "2023-09-05T09:01:57.865Z",
+        "updated_at": "2023-09-05T23:48:10.903Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "payment": [
+      {
+        "id": "73f3d3d0-16ff-4984-b591-2d2e6e1bb7f0",
+        "amount": 68170,
+        "status": "Pending",
+        "created_at": "2023-09-06T03:06:53.748Z",
+        "updated_at": "2023-09-05T22:41:56.983Z",
+        "job_id": "3e425bee-4613-4e6e-8fc2-f4c4c4d3dbba",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bcc0a9cc-9af5-4e54-97c8-3ccd6391d9b5",
+        "amount": 70347,
+        "status": "Paid",
+        "created_at": "2023-09-06T04:48:37.963Z",
+        "updated_at": "2023-09-05T16:22:35.928Z",
+        "job_id": "3e425bee-4613-4e6e-8fc2-f4c4c4d3dbba",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ba7aabbc-0664-424a-b8d5-d3f93bb22c65",
+        "amount": 70591,
+        "status": "Refunded",
+        "created_at": "2023-09-05T09:25:26.578Z",
+        "updated_at": "2023-09-05T14:18:15.634Z",
+        "job_id": "800f42d8-ab8e-48bb-b91d-edf589ea9841",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "efdf6e54-6c3b-49a9-aabe-b7b5a9eb7d04",
+        "amount": 68174,
+        "status": "Failed",
+        "created_at": "2023-09-05T19:20:23.720Z",
+        "updated_at": "2023-09-06T02:39:26.205Z",
+        "job_id": "800f42d8-ab8e-48bb-b91d-edf589ea9841",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7687bbbe-995b-412f-87f7-127b13b90183",
+        "amount": 54966,
+        "status": "Cancelled",
+        "created_at": "2023-09-06T05:39:40.917Z",
+        "updated_at": "2023-09-05T16:47:50.067Z",
+        "job_id": "3e425bee-4613-4e6e-8fc2-f4c4c4d3dbba",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "application": [
+      {
+        "id": "7267620c-d58a-441d-b4db-d1fed7dd56a2",
+        "status": "Submitted",
+        "created_at": "2023-09-05T18:21:51.205Z",
+        "updated_at": "2023-09-06T01:25:13.153Z",
+        "job_id": "115e45e1-6359-4170-90d6-7fd2e8c41d5f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2dacad56-f0f1-41cb-bd69-878b21975871",
+        "status": "Under review",
+        "created_at": "2023-09-05T15:48:41.079Z",
+        "updated_at": "2023-09-05T15:40:36.008Z",
+        "job_id": "115e45e1-6359-4170-90d6-7fd2e8c41d5f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5a2d9475-b8df-4b9e-b783-190f072707e7",
+        "status": "Shortlisted",
+        "created_at": "2023-09-05T21:55:43.431Z",
+        "updated_at": "2023-09-05T23:39:50.635Z",
+        "job_id": "fe716175-5d99-46d9-bc93-91d811ad81ef",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5170e359-46a9-4173-a228-a4da64b7224f",
+        "status": "Rejected",
+        "created_at": "2023-09-05T13:55:23.057Z",
+        "updated_at": "2023-09-06T04:04:49.399Z",
+        "job_id": "1add2023-116c-4042-8a72-83dbce0f95d8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cc79fcfc-d80a-4e4d-92ff-a94bbe07b8c1",
+        "status": "Accepted",
+        "created_at": "2023-09-05T12:57:47.610Z",
+        "updated_at": "2023-09-05T16:24:19.189Z",
+        "job_id": "1add2023-116c-4042-8a72-83dbce0f95d8",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "63305876-8d0d-4bca-86e9-e69cec7bab3b",
+        "email": "Leonie28@hotmail.com",
+        "firstName": "Karlie",
+        "lastName": "Langosh-Cronin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/806.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e08b7329-4d37-4b10-a728-8bb2b8f9de4b",
+        "email": "Laurie.Brekke@hotmail.com",
+        "firstName": "Sim",
+        "lastName": "Witting",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/88.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4bf32305-ed25-4f27-9ecd-f1a5acd02248",
+        "email": "Chaz_Hermann@gmail.com",
+        "firstName": "Lazaro",
+        "lastName": "Brekke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/94.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "79e15d17-03d2-4eaa-846c-c4730c00280b",
+        "email": "Morton.Fadel54@yahoo.com",
+        "firstName": "Cathryn",
+        "lastName": "Rowe",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/820.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6c352c2b-23a0-45ba-9339-f2891712df39",
+        "email": "America.Keeling@hotmail.com",
+        "firstName": "Kobe",
+        "lastName": "Heidenreich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8886516",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "task": [
+      {
+        "id": "6654f080-604c-4134-b931-181ff77993fd",
+        "title": "Complete project report",
+        "description": "Prepare a detailed report on the project progress",
+        "status": "Pending",
+        "created_at": "2023-09-05T16:56:41.878Z",
+        "updated_at": "2023-09-06T01:11:50.568Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dd5eef04-b0db-4f7b-9b44-42a7c7146156",
+        "title": "Review marketing strategy",
+        "description": "Evaluate and provide feedback on the current marketing strategy",
+        "status": "In Progress",
+        "created_at": "2023-09-05T09:45:22.926Z",
+        "updated_at": "2023-09-06T03:28:47.025Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c873320b-0c02-4c43-9ee5-1644bee0d14b",
+        "title": "Implement new feature",
+        "description": "Develop and integrate a new feature into the existing system",
+        "status": "Completed",
+        "created_at": "2023-09-05T11:43:41.635Z",
+        "updated_at": "2023-09-05T23:05:29.789Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "edb42cc8-8651-4a00-9dd2-b031a85f09e0",
+        "title": "Conduct user testing",
+        "description": "Conduct usability testing with target users",
+        "status": "On Hold",
+        "created_at": "2023-09-05T18:27:29.730Z",
+        "updated_at": "2023-09-05T23:00:49.720Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4e417f73-199d-4612-86fb-e86d6504440d",
+        "title": "Optimize website performance",
+        "description": "Identify and resolve performance issues on the website",
+        "status": "Cancelled",
+        "created_at": "2023-09-05T10:34:16.478Z",
+        "updated_at": "2023-09-05T22:34:33.849Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "job": [
+      {
+        "id": "e2e7298e-2fa5-4d33-800c-26ae243fa2a3",
+        "title": "Software Engineer",
+        "description": "Design and develop software applications",
+        "created_at": "2023-09-06T02:20:10.165Z",
+        "updated_at": "2023-09-05T10:43:39.134Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f0fb430e-7de0-4865-a96b-3e4e4cefcf92",
+        "title": "Marketing Manager",
+        "description": "Plan and execute marketing campaigns",
+        "created_at": "2023-09-05T21:48:44.393Z",
+        "updated_at": "2023-09-05T07:20:42.198Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ef095fd0-c26a-46f0-8438-081c354701eb",
+        "title": "Financial Analyst",
+        "description": "Analyze financial data and provide insights",
+        "created_at": "2023-09-05T09:32:48.998Z",
+        "updated_at": "2023-09-06T03:25:22.427Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a69e8255-60f3-44b3-bced-812ea806fb93",
+        "title": "Graphic Designer",
+        "description": "Create visual assets for marketing materials",
+        "created_at": "2023-09-05T20:58:54.662Z",
+        "updated_at": "2023-09-05T18:21:23.691Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cfc4261e-78a9-4f10-aec2-e925655d1030",
+        "title": "Operations Coordinator",
+        "description": "Coordinate day-to-day operations and logistics",
+        "created_at": "2023-09-05T17:14:37.264Z",
+        "updated_at": "2023-09-05T21:35:32.399Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "payment": [
+      {
+        "id": "8e3c0810-2a83-42ed-b4da-a619841d6fcc",
+        "amount": 35854,
+        "status": "Pending",
+        "created_at": "2023-09-05T22:15:19.493Z",
+        "updated_at": "2023-09-05T21:41:35.363Z",
+        "job_id": "a69e8255-60f3-44b3-bced-812ea806fb93",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "258db5ad-45b5-4157-b5bd-d740e04a9e5e",
+        "amount": 44351,
+        "status": "Paid",
+        "created_at": "2023-09-05T14:31:12.264Z",
+        "updated_at": "2023-09-05T13:39:24.833Z",
+        "job_id": "e2e7298e-2fa5-4d33-800c-26ae243fa2a3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "21610e01-1369-4d17-a79e-ea1b37053e46",
+        "amount": 81325,
+        "status": "Failed",
+        "created_at": "2023-09-05T09:20:19.014Z",
+        "updated_at": "2023-09-05T22:57:47.124Z",
+        "job_id": "ef095fd0-c26a-46f0-8438-081c354701eb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ba37507e-6689-46de-b832-0851de893fa2",
+        "amount": 2830,
+        "status": "Refunded",
+        "created_at": "2023-09-05T07:38:58.899Z",
+        "updated_at": "2023-09-05T11:07:57.283Z",
+        "job_id": "ef095fd0-c26a-46f0-8438-081c354701eb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "350ae8da-138d-48cb-8731-e52181d681a6",
+        "amount": 39254,
+        "status": "Cancelled",
+        "created_at": "2023-09-05T17:53:24.151Z",
+        "updated_at": "2023-09-05T20:40:35.344Z",
+        "job_id": "e2e7298e-2fa5-4d33-800c-26ae243fa2a3",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "application": [
+      {
+        "id": "0d5aa43c-d63d-4a5c-ad0e-bce082fd1399",
+        "status": "Submitted",
+        "created_at": "2023-09-05T19:40:14.851Z",
+        "updated_at": "2023-09-05T11:46:11.378Z",
+        "job_id": "a69e8255-60f3-44b3-bced-812ea806fb93",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d289921c-60fa-44e9-8371-d2b91194d55e",
+        "status": "Under Review",
+        "created_at": "2023-09-06T01:29:04.834Z",
+        "updated_at": "2023-09-05T07:04:04.524Z",
+        "job_id": "ef095fd0-c26a-46f0-8438-081c354701eb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "20db8cac-2a6c-49c4-8c02-e3630dbe7a60",
+        "status": "Shortlisted",
+        "created_at": "2023-09-05T16:58:00.303Z",
+        "updated_at": "2023-09-05T12:13:09.089Z",
+        "job_id": "ef095fd0-c26a-46f0-8438-081c354701eb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6e41ab90-54dd-4d07-b1a6-8dd71601754b",
+        "status": "Rejected",
+        "created_at": "2023-09-05T22:51:02.774Z",
+        "updated_at": "2023-09-06T04:12:08.480Z",
+        "job_id": "e2e7298e-2fa5-4d33-800c-26ae243fa2a3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "58780e28-af1a-4d45-933d-316c51cd85ad",
+        "status": "Accepted",
+        "created_at": "2023-09-05T07:36:27.709Z",
+        "updated_at": "2023-09-05T07:39:30.421Z",
+        "job_id": "a69e8255-60f3-44b3-bced-812ea806fb93",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "fcaa51e5-06e3-4ca5-8787-318b56dc9d99",
+        "email": "Ignacio39@hotmail.com",
+        "firstName": "Mable",
+        "lastName": "Bayer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/20703198",
+        "tenantId": null
+      },
+      {
+        "reference": "a9ade5b0-37da-4433-9438-2abbc0b24906",
+        "email": "Giovanni.Turner@hotmail.com",
+        "firstName": "Selena",
+        "lastName": "Stiedemann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/989.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9cb0fd83-8f82-49c4-8e45-6bce98a3409e",
+        "email": "Ola_Torp@hotmail.com",
+        "firstName": "Paige",
+        "lastName": "Ruecker",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/21.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d8a67fa1-d303-4d40-89b7-3d40391a8bde",
+        "email": "Carolyn.Beer21@gmail.com",
+        "firstName": "Olen",
+        "lastName": "Greenfelder",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/826.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a2f4a21a-61db-49c3-9098-acbbb0b26949",
+        "email": "Glenna_Bode@yahoo.com",
+        "firstName": "Merlin",
+        "lastName": "Willms",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/401.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "task": [
+      {
+        "id": "f81bb333-b6b0-4499-9dc2-31f8483f5a4d",
+        "title": "Complete project report",
+        "description": "Write a detailed report on the project progress",
+        "status": "Pending",
+        "created_at": "2023-09-05T06:45:54.700Z",
+        "updated_at": "2023-09-05T17:11:32.456Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "08d91cdb-64a7-47f7-acea-b261d9b83ba3",
+        "title": "Review marketing strategy",
+        "description": "Analyze and provide feedback on the current marketing strategy",
+        "status": "In Progress",
+        "created_at": "2023-09-06T02:16:16.357Z",
+        "updated_at": "2023-09-06T03:10:37.195Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3f6b20ef-f73d-4723-ba73-ed169faf379a",
+        "title": "Update website content",
+        "description": "Edit and update the content of the website",
+        "status": "Completed",
+        "created_at": "2023-09-05T08:48:43.635Z",
+        "updated_at": "2023-09-05T16:08:44.337Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8befc1b9-4e04-48e0-aad9-25523e599fb2",
+        "title": "Prepare sales presentation",
+        "description": "Create a persuasive sales presentation",
+        "status": "On Hold",
+        "created_at": "2023-09-05T20:50:12.367Z",
+        "updated_at": "2023-09-05T19:07:03.834Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dc01a451-d9eb-4942-a821-1d2f52154c8c",
+        "title": "Implement new feature",
+        "description": "Develop and integrate a new feature into the existing system",
+        "status": "Cancelled",
+        "created_at": "2023-09-05T23:22:21.386Z",
+        "updated_at": "2023-09-05T19:39:42.765Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "job": [
+      {
+        "id": "569a5379-0d9e-4e4f-94cc-8a902992f28e",
+        "title": "Software Engineer",
+        "description": "Design and develop software applications",
+        "created_at": "2023-09-06T01:48:42.469Z",
+        "updated_at": "2023-09-05T15:05:38.491Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "962055a1-5b42-42af-9cfe-92344c62a7f1",
+        "title": "Marketing Manager",
+        "description": "Plan and execute marketing campaigns",
+        "created_at": "2023-09-05T14:57:42.868Z",
+        "updated_at": "2023-09-05T18:45:08.467Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9f69bfc2-e39c-4116-8891-2413e8a5ceaa",
+        "title": "Sales Representative",
+        "description": "Generate leads and close sales deals",
+        "created_at": "2023-09-05T08:33:41.287Z",
+        "updated_at": "2023-09-05T13:04:36.316Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "32fecb56-c398-4bdf-988a-7f9ff11b1236",
+        "title": "Financial Analyst",
+        "description": "Analyze financial data and provide insights",
+        "created_at": "2023-09-06T04:10:06.938Z",
+        "updated_at": "2023-09-05T22:32:06.246Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1e325789-c443-4cf8-b9b6-7e3d72404b0d",
+        "title": "Operations Coordinator",
+        "description": "Coordinate and manage day-to-day operations",
+        "created_at": "2023-09-05T18:03:10.817Z",
+        "updated_at": "2023-09-05T23:00:38.998Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "payment": [
+      {
+        "id": "24f8cc07-8297-4812-888b-c715b50e0750",
+        "amount": 39092,
+        "status": "Pending",
+        "created_at": "2023-09-05T10:12:34.225Z",
+        "updated_at": "2023-09-05T06:50:11.456Z",
+        "job_id": "962055a1-5b42-42af-9cfe-92344c62a7f1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "df38b5cc-9c13-40b4-88bd-4c878dd879a6",
+        "amount": 39200,
+        "status": "Paid",
+        "created_at": "2023-09-05T20:45:24.751Z",
+        "updated_at": "2023-09-05T23:01:07.962Z",
+        "job_id": "1e325789-c443-4cf8-b9b6-7e3d72404b0d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "053d7e58-fb90-4dbc-b42d-d317317c82c5",
+        "amount": 20338,
+        "status": "Failed",
+        "created_at": "2023-09-05T19:51:31.411Z",
+        "updated_at": "2023-09-05T11:10:21.184Z",
+        "job_id": "962055a1-5b42-42af-9cfe-92344c62a7f1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9fc82c36-987f-45f6-82b3-b899d15b77ec",
+        "amount": 18477,
+        "status": "Refunded",
+        "created_at": "2023-09-05T17:15:25.616Z",
+        "updated_at": "2023-09-05T16:14:37.493Z",
+        "job_id": "32fecb56-c398-4bdf-988a-7f9ff11b1236",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c15a6089-21c7-4c84-92e3-0fd1a27aa5a4",
+        "amount": 12811,
+        "status": "Cancelled",
+        "created_at": "2023-09-05T19:53:13.476Z",
+        "updated_at": "2023-09-06T04:40:58.609Z",
+        "job_id": "569a5379-0d9e-4e4f-94cc-8a902992f28e",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "application": [
+      {
+        "id": "e67e8d5d-5601-4658-a400-3d44a7feee97",
+        "status": "Submitted",
+        "created_at": "2023-09-05T20:08:12.877Z",
+        "updated_at": "2023-09-05T11:33:14.740Z",
+        "job_id": "32fecb56-c398-4bdf-988a-7f9ff11b1236",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "646fb8f3-47a3-4291-a309-b20c050ceba1",
+        "status": "Under Review",
+        "created_at": "2023-09-05T21:56:24.216Z",
+        "updated_at": "2023-09-05T21:19:56.808Z",
+        "job_id": "962055a1-5b42-42af-9cfe-92344c62a7f1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d89821c4-d173-4681-b075-4502cabd450b",
+        "status": "Accepted",
+        "created_at": "2023-09-06T05:56:08.571Z",
+        "updated_at": "2023-09-05T12:56:26.524Z",
+        "job_id": "569a5379-0d9e-4e4f-94cc-8a902992f28e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4ee251fc-11db-4fac-8b67-c52a00a04a1a",
+        "status": "Rejected",
+        "created_at": "2023-09-05T08:16:30.394Z",
+        "updated_at": "2023-09-06T03:02:32.284Z",
+        "job_id": "9f69bfc2-e39c-4116-8891-2413e8a5ceaa",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "820e89e2-81b2-4b4b-95a0-c0c3655e8a20",
+        "status": "Withdrawn",
+        "created_at": "2023-09-05T13:23:54.752Z",
+        "updated_at": "2023-09-05T13:59:39.884Z",
+        "job_id": "962055a1-5b42-42af-9cfe-92344c62a7f1",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "0206553d-7947-4d2a-a930-15784536d81f",
+        "email": "Walker64@hotmail.com",
+        "firstName": "Stephon",
+        "lastName": "Gerhold",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/76315077",
+        "tenantId": null
+      },
+      {
+        "reference": "7768a18e-89a1-46b9-8215-072ec03d119e",
+        "email": "Alia22@hotmail.com",
+        "firstName": "Harvey",
+        "lastName": "Lueilwitz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64464830",
+        "tenantId": null
+      },
+      {
+        "reference": "b083cd1e-247c-4c11-a2c0-b11a30f00ae0",
+        "email": "Sterling93@gmail.com",
+        "firstName": "Titus",
+        "lastName": "Robel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/436.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "89cac623-ca9f-4f9d-8110-0ab40006fbba",
+        "email": "Lauriane_Hessel@yahoo.com",
+        "firstName": "Lyla",
+        "lastName": "Tremblay",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/559.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2472647a-4864-4269-9dc9-2360781e86d9",
+        "email": "Godfrey_Turner73@gmail.com",
+        "firstName": "Josiane",
+        "lastName": "Schmitt",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9763230",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "task": [
+      {
+        "id": "4ce9f7e1-43a5-45e0-86b5-1498c864d6a7",
+        "title": "Update website content",
+        "description": "Update the content on the website to reflect recent changes",
+        "status": "Pending",
+        "created_at": "2023-09-05T11:39:41.759Z",
+        "updated_at": "2023-09-05T14:53:39.143Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4788714d-1068-4192-ba95-6cd634a355ef",
+        "title": "Create marketing campaign",
+        "description": "Create a comprehensive marketing campaign targeting new customers",
+        "status": "In Progress",
+        "created_at": "2023-09-05T17:07:25.597Z",
+        "updated_at": "2023-09-05T11:29:30.723Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9451f940-dabb-44cf-8064-9c47e4ff4779",
+        "title": "Research market trends",
+        "description": "Conduct research on current market trends and provide insights",
+        "status": "Completed",
+        "created_at": "2023-09-06T02:00:43.081Z",
+        "updated_at": "2023-09-05T15:12:27.888Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "60a64e20-e9d9-43b2-8c4a-b85ce0843ece",
+        "title": "Implement new feature",
+        "description": "Implement a new feature based on user feedback",
+        "status": "On Hold",
+        "created_at": "2023-09-06T02:21:59.465Z",
+        "updated_at": "2023-09-06T00:43:52.030Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3c1518c2-7413-4322-b31a-191ab4f0318e",
+        "title": "Write user documentation",
+        "description": "Write clear and concise user documentation for the product",
+        "status": "Cancelled",
+        "created_at": "2023-09-05T22:38:05.291Z",
+        "updated_at": "2023-09-05T08:55:34.279Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "job": [
+      {
+        "id": "31dfa590-9fc4-4240-bd98-a37725506de4",
+        "title": "Software Engineer",
+        "description": "Develop and maintain software applications",
+        "created_at": "2023-09-06T02:26:20.047Z",
+        "updated_at": "2023-09-06T03:49:53.545Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f20a519b-d47e-4c86-8e56-02e6ae9f2328",
+        "title": "Marketing Manager",
+        "description": "Plan and execute marketing strategies",
+        "created_at": "2023-09-05T06:36:05.525Z",
+        "updated_at": "2023-09-05T07:23:47.661Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1b37e207-8b6c-4997-b50d-eea408f94d63",
+        "title": "Financial Analyst",
+        "description": "Analyze financial data and provide recommendations",
+        "created_at": "2023-09-05T12:38:05.881Z",
+        "updated_at": "2023-09-05T21:28:36.174Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fa6aeb02-8d87-48b3-8f4d-b43e2a705474",
+        "title": "Graphic Designer",
+        "description": "Create visually appealing designs for various projects",
+        "created_at": "2023-09-06T06:05:34.287Z",
+        "updated_at": "2023-09-05T17:22:41.444Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e29ff9bb-af59-4185-96f8-718920e47878",
+        "title": "Sales Representative",
+        "description": "Promote and sell products or services",
+        "created_at": "2023-09-05T09:48:25.518Z",
+        "updated_at": "2023-09-05T21:04:29.668Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "payment": [
+      {
+        "id": "1bf80654-d3be-48c0-ab90-8049ac2996d9",
+        "amount": 50697,
+        "status": "Pending",
+        "created_at": "2023-09-06T05:40:31.458Z",
+        "updated_at": "2023-09-05T09:17:32.382Z",
+        "job_id": "31dfa590-9fc4-4240-bd98-a37725506de4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "28e39650-2ad6-4d10-b90d-b4ffccf6d89b",
+        "amount": 88861,
+        "status": "Paid",
+        "created_at": "2023-09-05T12:03:56.779Z",
+        "updated_at": "2023-09-06T00:24:16.031Z",
+        "job_id": "31dfa590-9fc4-4240-bd98-a37725506de4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "022bae9f-271d-44f0-ab8f-a5bd8a5942a7",
+        "amount": 55170,
+        "status": "Failed",
+        "created_at": "2023-09-05T23:37:19.269Z",
+        "updated_at": "2023-09-06T00:21:18.708Z",
+        "job_id": "1b37e207-8b6c-4997-b50d-eea408f94d63",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "449e4e74-963d-4ee5-b81e-85e266fb846c",
+        "amount": 29945,
+        "status": "Refunded",
+        "created_at": "2023-09-05T08:19:15.496Z",
+        "updated_at": "2023-09-05T17:50:37.901Z",
+        "job_id": "fa6aeb02-8d87-48b3-8f4d-b43e2a705474",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f0b05382-9d40-46d7-acd4-a7f54265ded1",
+        "amount": 765,
+        "status": "Cancelled",
+        "created_at": "2023-09-05T10:33:15.262Z",
+        "updated_at": "2023-09-05T07:27:54.459Z",
+        "job_id": "fa6aeb02-8d87-48b3-8f4d-b43e2a705474",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "application": [
+      {
+        "id": "4f54f70e-b867-48a1-af9c-e6c5be7488a9",
+        "status": "Submitted",
+        "created_at": "2023-09-05T17:54:43.410Z",
+        "updated_at": "2023-09-05T08:30:53.305Z",
+        "job_id": "fa6aeb02-8d87-48b3-8f4d-b43e2a705474",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2b6715ba-095e-4d1d-8107-a803a429b757",
+        "status": "Under Review",
+        "created_at": "2023-09-05T19:07:22.600Z",
+        "updated_at": "2023-09-05T11:02:28.147Z",
+        "job_id": "fa6aeb02-8d87-48b3-8f4d-b43e2a705474",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "57ef40db-8033-4892-b245-099c1e1b968c",
+        "status": "Accepted",
+        "created_at": "2023-09-06T05:20:43.095Z",
+        "updated_at": "2023-09-05T23:12:08.903Z",
+        "job_id": "1b37e207-8b6c-4997-b50d-eea408f94d63",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4d1dc021-eec1-440c-9ece-88a89f128299",
+        "status": "Rejected",
+        "created_at": "2023-09-05T15:12:38.020Z",
+        "updated_at": "2023-09-05T19:08:46.510Z",
+        "job_id": "f20a519b-d47e-4c86-8e56-02e6ae9f2328",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9c2cfc0c-07df-4634-bca6-df94a678fec9",
+        "status": "Withdrawn",
+        "created_at": "2023-09-06T01:22:37.660Z",
+        "updated_at": "2023-09-05T23:02:04.935Z",
+        "job_id": "f20a519b-d47e-4c86-8e56-02e6ae9f2328",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "d66dbbb8-1d32-4ff8-ab57-76d125b44367",
+        "email": "Colton_McKenzie@yahoo.com",
+        "firstName": "Adelia",
+        "lastName": "Rice",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/96002211",
+        "tenantId": null
+      },
+      {
+        "reference": "c3d08503-1767-4852-851e-b7250fac8684",
+        "email": "Jeramy_Oberbrunner27@hotmail.com",
+        "firstName": "Emelia",
+        "lastName": "Frami",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1125.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ba64bde5-2c42-4eee-b5f1-b6141a7ff5e5",
+        "email": "Abdullah.Maggio@gmail.com",
+        "firstName": "Cortez",
+        "lastName": "Herzog",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/79.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2354990b-ad55-4aa8-a4fe-7b94d7f4e654",
+        "email": "Gilberto36@hotmail.com",
+        "firstName": "Weston",
+        "lastName": "Goodwin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/37.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "fae6a323-25cc-4fa5-ac67-975da1c6690d",
+        "email": "Letitia90@hotmail.com",
+        "firstName": "Kennith",
+        "lastName": "Gibson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/93547072",
+        "tenantId": null
+      }
+    ]
+  }
+]
